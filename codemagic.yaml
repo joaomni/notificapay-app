@@ -6,7 +6,6 @@ workflows:
         PACKAGE_NAME: "com.xuaum.notificapay"
       node: 18
       java: 17
-      android: true
       groups:
         - default
     scripts:
