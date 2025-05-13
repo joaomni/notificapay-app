@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "notificapay",
-    "slug": "notificapay",
+    "name": "NotificaPay",
+    "slug": "ganhos",
     "version": "1.0.0",
     "orientation": "portrait",
+  "platforms": ["ios", "android", "web"],
     "icon": "./assets/images/icon.png",
     "scheme": "notificapay",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/splash-icon.png",
+      "image": "./assets/images/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,10 +19,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.xuaum.notificapay"
     },
     "web": {
       "bundler": "metro",
@@ -33,6 +35,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f9373c03-a99d-4160-8a5d-b9b75486df8a"
+      }
+    },
+    "owner": "xuaum"
   }
 }
