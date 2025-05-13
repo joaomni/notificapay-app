@@ -22,15 +22,7 @@ async function showNotificationA() {
       pressAction: {
         id: "default",
       },
-    },
-    ios: {
-      foregroundPresentationOptions: {
-        alert: true,
-        badge: true,
-        sound: true,
-      },
-      sound: "default",
-    },
+    }
   });
 }
 
@@ -42,19 +34,8 @@ async function showNotificationB() {
     android: {
       channelId,
       smallIcon: "ic_kiwify",
-      largeIcon: "ic_kirvano",
-      pressAction: {
-        id: "default",
-      },
-    },
-    ios: {
-      foregroundPresentationOptions: {
-        alert: true,
-        badge: true,
-        sound: true,
-      },
-      sound: "default",
-    },
+      largeIcon: "ic_kiwify",
+    }
   });
 }
 
